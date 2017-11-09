@@ -1,8 +1,0 @@
-{
-  "@class" : "org.apereo.cas.support.saml.services.SamlRegisteredService",
-  "serviceId" : "urn:mace:saml:pac4j.org",
-  "name" : "SAMLService",
-  "id" : 10000003,
-  "evaluationOrder" : 10,
-  "metadataLocation" : "https://dev-540472.oktapreview.com/app/exkcozjyuyyXbIRY80h7/sso/saml/metadata"
-}
