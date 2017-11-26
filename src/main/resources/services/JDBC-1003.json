@@ -1,0 +1,9 @@
+{
+  "@class" : "org.apereo.cas.services.RegexRegisteredService",
+  "serviceId" : "https://localhost:8445/casclient2/",
+  "name" : "JDBC",
+  "id" : 1003,
+  "description" : "This service definition authorizes all application urls that support HTTPS and IMAPS protocols.",
+  "evaluationOrder" : 51,
+  "requiredHandlers" : [ "java.util.HashSet", [ "HttpBasedServiceCredential" ] ]
+}

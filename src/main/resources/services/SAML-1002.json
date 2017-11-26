@@ -1,0 +1,9 @@
+{
+  "@class" : "org.apereo.cas.services.RegexRegisteredService",
+  "serviceId" : "https://localhost:8445/casclient/",
+  "name" : "SAML",
+  "id" : 1002,
+  "description" : "This service definition authorizes all application urls that support HTTPS and IMAPS protocols.",
+  "evaluationOrder" : 50,
+  "requiredHandlers" : [ "java.util.HashSet", [ "UsernamePasswordWrapperAuthenticationHandler " ] ]
+}
